@@ -14,6 +14,58 @@ body{
     
 }
 
+
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link{
+    
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav-menu{
+    
+    display: flex;
+    margin: 0 40px;
+    list-style: none;
+     line-height: 80px;
+    
+}
+
+.nav-menu-item{
+    
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.nav-menu-link{
+    
+    padding: 8px 12px;
+    border-radius: 8px;
+    
+}
+
+.nav-menu-link:hover{
+    
+   background-color: #024070;
+  transition: 0.5s;
+  font-size: 20px;
+}
+
 .header{
     
     background-color: #076af0;
@@ -54,6 +106,7 @@ body{
      position: fixed;
     left: 0;
     right: 0;
+    bottom: 0;
     
     
 }
@@ -63,6 +116,8 @@ p {
  color:green;
  
 }
+
+
 
 aside p{
     
@@ -91,4 +146,23 @@ nav a:hover{
     
     background-color: red;
     color:white;
+}
+
+.textocentrado {
+    text-align: center;
+    
+}
+.textoDerecha {
+    text-align: right;
+   
+}
+
+tbody tr:nth-child(odd) {
+    
+    background-color: coral;
+}
+
+tbody tr:nth-child(even) {
+    
+    background-color: red;
 }
